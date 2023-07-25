@@ -48,6 +48,5 @@ fun main(){
         }catch (e :NumberFormatException){
             println("잘못 입력하셨습니다.")
         }
-
     }
 }
