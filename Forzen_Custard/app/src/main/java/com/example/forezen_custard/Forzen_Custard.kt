@@ -10,6 +10,7 @@ class gelatomenu (name:String, price: Int) : Item(name ,price)
 fun displayinfo(meun:Item){
     println("메뉴:${meun.name} 가격${meun.price}")
 }
+
 fun main(){
     var icemenu = mutableListOf(
         soft_menu("소프트 콘", 2000),
